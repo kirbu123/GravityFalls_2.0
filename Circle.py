@@ -5,7 +5,7 @@ vp.scene.title = "Modeling the motion of planets with the gravitational force"
 vp.scene.height = 600
 vp.scene.width = 800
 
-V = 1200
+V = 1000
 
 planet1 = vp.sphere(pos=vp.vector(0, 0, 0), radius=0.05, color=vp.color.green, mass=100, momentum=vp.vector(- V / 2, V * math.sqrt(3) / 2, 0), make_trail=True)
 
